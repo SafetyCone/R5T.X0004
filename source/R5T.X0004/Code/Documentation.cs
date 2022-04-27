@@ -8,5 +8,9 @@ namespace R5T.X0004
     /// </summary>
     public static class Documentation
     {
+        /// <summary>
+        /// Useful for getting the file path of files that have been copied to the output directory when running in a testing context (MS test).
+        /// </summary>
+        public static readonly object TestingOutputDirectoryFilePath;
     }
 }
